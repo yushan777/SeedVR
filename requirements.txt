@@ -1,8 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cu12.1
+torch==2.3.0+cu121
+
 # Common
 einops==0.7.0                   # Tensor operations
 
 # Training
-torch==2.3.0                    # Torch
 omegaconf==2.3.0                # Configuration system.
 lpips==0.1.4                    # LPIPS model for VAE training
 
