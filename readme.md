@@ -89,7 +89,7 @@ We sincerely thank all contributors from the open community for their valuable s
 
 1️⃣  Set up environment
 ```bash
-git clone https://github.com/bytedance-seed/SeedVR.git
+git clone https://github.com/yushan777/SeedVR.git
 cd SeedVR
 conda create -n seedvr python=3.10 -y
 conda activate seedvr
