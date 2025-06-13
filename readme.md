@@ -96,6 +96,9 @@ sudo apt install gcc-12 g++-12 -y
 wget https://developer.download.nvidia.com/compute/cuda/12.9.1/local_installers/cuda_12.9.1_575.57.08_linux.run
 sudo sh cuda_12.9.1_575.57.08_linux.run
 
+export CUDA_HOME=/usr/local/cuda-12.9
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
 
 ```
 
