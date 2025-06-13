@@ -87,6 +87,18 @@ We sincerely thank all contributors from the open community for their valuable s
 
 ## 🔥 Quick Start
 
+```
+# gcc
+sudo apt install gcc-12 g++-12 -y
+
+
+# CUDA
+wget https://developer.download.nvidia.com/compute/cuda/12.9.1/local_installers/cuda_12.9.1_575.57.08_linux.run
+sudo sh cuda_12.9.1_575.57.08_linux.run
+
+
+```
+
 1️⃣  Set up environment
 ```bash
 git clone https://github.com/yushan777/SeedVR.git
